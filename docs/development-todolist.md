@@ -137,29 +137,29 @@
 ### Environment & Konfigurasi
 - [ ] Install **Laravel 12** + konfigurasi `.env` (DB, mail, queue, storage)
 - [ ] Setup **MySQL 8.4** lokal + production (gunakan Docker atau Laragon)
-- [ ] Setup **Laravel Breeze 2.x** (auth scaffolding dengan Blade)
-- [ ] Install **Tailwind CSS v4** + **Alpine.js v3.x** via Vite
-- [ ] Setup design tokens warna & font di `resources/css/app.css` (blok `@theme`)
-  - [ ] Color tokens: `primary-*`, `dark-*`, `neutral-*`, `success`, `info`, `warning`, `danger`
-  - [ ] Font tokens: `--font-heading` (Sora), `--font-body` (DM Sans), `--font-mono` (JetBrains Mono)
-- [ ] Import Google Fonts di `app.css` (Sora, Plus Jakarta Sans, DM Sans, JetBrains Mono)
-- [ ] Setup **Vite 6.x** config untuk asset bundling + HMR
-- [ ] Setup **Node.js 22 LTS** & pastikan `package.json` menggunakan versi terbaru
+- [x] Setup **Laravel Breeze 2.x** (auth scaffolding dengan Blade)
+- [x] Install **Tailwind CSS v4** + **Alpine.js v3.x** via Vite
+- [x] Setup design tokens warna & font di `resources/css/app.css` (blok `@theme`)
+  - [x] Color tokens: `primary-*`, `dark-*`, `neutral-*`, `success`, `info`, `warning`, `danger`
+  - [x] Font tokens: `--font-heading` (Sora), `--font-body` (DM Sans), `--font-mono` (JetBrains Mono)
+- [x] Import Google Fonts di `app.css` (Sora, Plus Jakarta Sans, DM Sans, JetBrains Mono)
+- [x] Setup **Vite 6.x** config untuk asset bundling + HMR
+- [x] Setup **Node.js 22 LTS** & pastikan `package.json` menggunakan versi terbaru
 - [ ] Setup Laravel Storage + link symlink public (Cloudflare R2 untuk staging/prod)
 - [ ] Setup queue driver: **Redis 7** (prod) / `database` (dev lokal)
-- [ ] Setup `.env.example` yang lengkap
-- [ ] Konfigurasi `config/app.php` (timezone: `Asia/Jakarta`, locale: `id`)
-- [ ] Install package pendukung:
-  - [ ] `barryvdh/laravel-dompdf ^3.x` (PDF invoice & sertifikat)
-  - [ ] `xendit/xendit-php` (Xendit PHP SDK — payment gateway)
+- [x] Setup `.env.example` yang lengkap
+- [x] Konfigurasi `config/app.php` (timezone: `Asia/Jakarta`, locale: `id`)
+- [x] Install package pendukung:
+  - [x] `barryvdh/laravel-dompdf ^3.x` (PDF invoice & sertifikat)
+  - [x] `xendit/xendit-php` (Xendit PHP SDK — payment gateway)
   - [ ] `spatie/laravel-medialibrary` atau custom storage helper untuk upload
-  - [ ] `spatie/laravel-sitemap` (sitemap otomatis — Phase 2)
-- [ ] Tambahkan konfigurasi Xendit di `config/services.php` (`secret_key`, `webhook_secret`)
-- [ ] Buat `XenditService` class di `app/Services/XenditService.php`
-- [ ] Setup Git repository + branching strategy (`main`, `dev`, `feature/*`)
-- [ ] Buat base layout Blade (`layouts/app.blade.php`, `layouts/admin.blade.php`, `layouts/auth.blade.php`)
-- [ ] Buat komponen Blade dasar: button, card, badge, alert, modal
-- [ ] Halaman 404 & 500 custom
+  - [x] `spatie/laravel-sitemap` (sitemap otomatis — Phase 2)
+- [x] Tambahkan konfigurasi Xendit di `config/services.php` (`secret_key`, `webhook_secret`)
+- [x] Buat `XenditService` class di `app/Services/XenditService.php`
+- [x] Setup Git repository + branching strategy (`main`, `dev`, `feature/*`)
+- [x] Buat base layout Blade (`layouts/app.blade.php`, `layouts/admin.blade.php`, `layouts/auth.blade.php`)
+- [x] Buat komponen Blade dasar: button, card, badge, alert, modal
+- [x] Halaman 404 & 500 custom
 
 ---
 
